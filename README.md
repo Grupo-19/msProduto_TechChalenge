@@ -53,23 +53,6 @@ Este projeto adota uma arquitetura de microsserviços, distribuindo responsabili
 
 https://miro.com/app/board/uXjVLDN8bq0=/?share_link_id=982478938819
 
-```rust
-┌────────────────────┐       ┌────────────────────┐       ┌────────────────────────┐ 
-│    API Gateway     │       │  Gerenciamento de  │       │    Banco de Dados      │  
-│  (Spring Gateway)  │<----->│      Clientes      │<----->│ PostgreSQL - Clientes  │
-└────────────────────┘       └────────────────────┘       └────────────────────────┘ 
-
-                                 │     │     │
-                                 │     │     │
- ┌────────────────────┐       ┌────────────────────┐       ┌───────────────────────┐
- │ Catálogo de        │<----->│ Gestão de Pedidos  │<----->│ PostgreSQL - Pedidos  │
- │ Produtos           │       └────────────────────┘       └───────────────────────┘
- └────────────────────┘       ┌────────────────────┐
-                              │ Logística          │
-                              │ de Entrega         │
-                              └────────────────────┘
-
-```
 
 ---
 
@@ -161,11 +144,11 @@ Abaixo estão listados os principais endpoints da API, organizados por funcional
 
 ### Passos para Implantação
 
-1. Clone o repositório: ************ COLOCAR O LINK CORRETO DO REPOSITORIO ************************
+1. Clone o repositório:
     
     ```bash
     
-    git clone https://github.com/usuario/repo.git
+    git clone https://github.com/usuario/repo.git](https://github.com/Grupo-19/msProduto_TechChalenge)
     cd repo
     
     ```
