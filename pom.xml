@@ -18,7 +18,7 @@
 			<java.version>17</java.version>
 			<sonar.organization>grupo-19</sonar.organization>
 			<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-			<sonar.projectKey>Grupo-19_microsservico-produtos</sonar.projectKey>
+			<sonar.projectKey>Grupo-19_msProduto_TechChalenge</sonar.projectKey>
 			<sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
 			<sonar.jacoco.reportPaths>${project.build.directory}/jacoco.exec</sonar.jacoco.reportPaths>
 		</properties>
